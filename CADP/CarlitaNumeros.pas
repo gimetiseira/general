@@ -30,14 +30,8 @@ begin
 			end
 			else begin
 				writeln(n3:1:2);
-				if(n1 < n3)then begin
-					writeln(n1:1:2);
-					writeln(n3:1:2);
-				end
-				else begin
-					writeln(n3:1:2);
-					writeln(n1:1:2);
-				end;
+				writeln(n1:1:2);
+				writeln(n2:1:2);
 			end;
 		end
 		else begin
@@ -54,14 +48,8 @@ begin
 			end
 			else begin
 				writeln(n3:1:2);
-				if(n1 < n2)then begin
-					writeln(n1:1:2);
-					writeln(n2:1:2);
-				end
-				else begin
-					writeln(n2:1:2);
-					writeln(n1:1:2);
-				end;
+				writeln(n2:1:2);
+				writeln(n1:1:2);
 			end;
 		end;
 		writeln();
